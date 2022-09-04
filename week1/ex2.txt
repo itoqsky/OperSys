@@ -1,0 +1,228 @@
+    1  cd ~/Desktop/progm/OperSys/
+    2  cmd
+    3  cmd &
+    4  gedit &
+    5  touch &
+    6  ikram.txt
+    7  touch &
+    8  touch ikram
+    9  kill %1
+   10  fg %1
+   11  fg 
+   12  fg %
+   13  fg %-
+   14  ls
+   15  &
+   16  cmd &
+   17  cmd
+   18  cmd
+   19  cmd
+   20  bg
+   21  stop job#
+   22  fg
+   23  cmd
+   24  pwd
+   25  ls
+   26  touch foo
+   27  cd foo
+   28  rm foo
+   29  mkdr foo
+   30  mkdir foo
+   31  rmdir foo
+   32  ls
+   33  touch foo
+   34  sort < foo > bar &
+   35  bg
+   36  tail -f temp.log
+   37  bg
+   38  sort < foo > bar &
+   39* 
+   40  pwd
+   41  tail -f temp.log
+   42  touch temp.log
+   43  tail -f temp.log
+   44  bg
+   45  jobs
+   46  stop job#
+   47  fg#2
+   48  fg #2
+   49  bg #1
+   50  jobs
+   51  cmd &
+   52  cmd
+   53  man cmd
+   54  cmd -h
+   55  cmd --help
+   56* 
+   57  fg 
+   58  jobs
+   59  bg
+   60  jobs
+   61  kill -9 97
+   62  kill -9
+   63  kill
+   64  man kill
+   65  ps %1
+   66  ps 1
+   67  jobs
+   68  ps tail
+   69  ps
+   70  kill -9 45537
+   71  jobs
+   72  fg
+   73  kill -19 45537
+   74  tail -f temp.log &
+   75  jobs
+   76  kill -19 45886
+   77  jobs
+   78  kill -19 152
+   79  jobs
+   80  pc
+   81  ps
+   82  jobs
+   83  kill -l9 45886
+   84  kill -19 45886
+   85  kill -19 45886
+   86  jobs
+   87  kill -19 
+   88  kill -1
+   89  kill -1 9 45886
+   90  kill -19 45886
+   91  jobs
+   92  jobs
+   93  jobs
+   94  jobs
+   95  jobs
+   96  jobs
+   97  jobs
+   98  jobs
+   99  5
+  100  %
+  101  %
+  102  #
+  103  #
+  104  bg
+  105  fg
+  106* 
+  107  tail -f temp.log &
+  108  ps
+  109  kill -19 45900
+  110  jobs
+  111  jobs
+  112  jobs
+  113  jobs
+  114  jobs
+  115  jobs
+  116  #
+  117  #
+  118  jobs#
+  119  jobs
+  120  stop 
+  121  man stop
+  122  stop 45900
+  123  fg
+  124  bg
+  125  jobs
+  126  kill -19 45 900
+  127  kill -19 45900
+  128  kill -19 45900
+  129  kill -19 45900
+  130  kill -19 45900
+  131  kill -19 45900
+  132  kill -19 45900
+  133  kill -19 45900
+  134  kill -19 45900
+  135  kill -19 45900
+  136  kill -19 45900
+  137  kill -19 45900
+  138  kill -19 45900
+  139  kill -19 45900
+  140  kill -19 45900
+  141  kill -19 45900
+  142  kill -19 45900
+  143  kill -19 45900
+  144  kill -19 45900
+  145  kill -19 45900
+  146  kill -19 45900
+  147  kill -19 45900
+  148  jobs
+  149  kill -19 45900
+  150  kill -19 45900
+  151  cd week1/
+  152  find /user/bin "gcc"
+  153  find /usr/bin "gcc"
+  154  find /usr/bin ".gcc"
+  155  find /usr/bin "*.gcc"
+  156  man find
+  157  find /usr/bin -name "gcc"
+  158  man find
+  159* find /usr/bin -name "gcc" | sort -r | tail -n 5 > ex1.txta
+  160  lss
+  161  ls
+  162  cat ex1.txt 
+  163  vim ex1.sh
+  164  vim ex1.sh
+  165  s
+  166  ls
+  167  ls
+  168  vim ex1.sh
+  169  ls
+  170  man vim
+  171  nano ex1.sh
+  172  ks
+  173  ls
+  174  git config --global user.name "Your Name"
+  175  git config --global user.name "Ikram Kamat"
+  176  git config --global user.email "ikram.kamat.04@gmail.com"
+  177  git commit -m "update the README.md with link to contributing guide"
+  178  git status
+  179  git add ex1.*
+  180  git status
+  181  git add ex1.sh
+  182  git add ex1.txt
+  183  git status
+  184  git add
+  185  git add .
+  186  git status
+  187  git commti
+  188  git commit 
+  189  git push
+  190  git status
+  191  git add .
+  192  git commit
+  193  git add ex1.sh 
+  194  git commit
+  195  git status
+  196  man history
+  197  history
+  198  history
+  199  history > ex2.txt &
+  200  jobs
+  201  ls
+  202  man ls
+  203  man git
+  204  tail . -n 5 
+  205  tail -path . -n 5 
+  206  tail -n 2 ex1.sh 
+  207  cat ex2.txt 
+  208  kill -9 46694
+  209  bg
+  210  ps
+  211  kill -9 46268
+  212  jobs
+  213  kill -9 45900
+  214  jobs
+  215  kill -9 46269
+  216  kill -9 46289
+  217  jobs
+  218  ls
+  219  chmod +x ex2.sh
+  220  ./ex2.sh 
+  221  ./ex2.sh 
+  222  ./ex2.sh 
+  223  sh ex1.sh
+  224  sh ex2.sh
+  225  sh ex2.sh
+  226  ./ex2.sh 
+  227  ./ex2.sh 
+  228  ./ex2.sh 

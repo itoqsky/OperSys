@@ -1,0 +1,20 @@
+total 8784
+drwxr-xr-x+   4 ikramkamat  staff      128 Oct 20  2019 Public
+drwx------+   6 ikramkamat  staff      192 Apr 29  2021 Movies
+drwx------+   5 ikramkamat  staff      160 Sep 22  2021 Pictures
+-rw-r--r--@   1 ikramkamat  staff  4169142 Oct 14  2021 ikramkamat
+-rw-r--r--@   1 ikramkamat  staff        6 Dec  9  2021 ika
+drwxr-xr-x    6 ikramkamat  staff      192 Apr 22 17:11 IdeaProjects
+drwx------@  96 ikramkamat  staff     3072 Apr 22 17:29 Library
+drwxr-xr-x    6 ikramkamat  staff      192 Apr 26 13:12 cwdqwd
+-rw-r--r--@   1 ikramkamat  staff      109 Jun 12 21:44 tailwind.config.js
+-rw-r--r--    1 ikramkamat  staff      295 Jun 28 23:34 package.json
+drwxr-xr-x  381 ikramkamat  staff    12192 Jul 16 14:15 node_modules
+drwxr-xr-x    7 ikramkamat  staff      224 Jul 16 14:15 BS21-08-Kahoot
+drwx------+   5 ikramkamat  staff      160 Jul 16 14:36 Music
+-rw-r--r--    1 ikramkamat  staff   307845 Jul 19 23:47 package-lock.json
+drwx------@   4 ikramkamat  staff      128 Jul 24 11:29 Documents
+-rw-r--r--@   1 ikramkamat  staff      158 Aug 20 22:35 psw
+drwx------@   4 ikramkamat  staff      128 Aug 26 23:43 Applications
+drwx------@  15 ikramkamat  staff      480 Sep  4 18:24 Desktop
+drwx------@  27 ikramkamat  staff      864 Sep  4 22:06 Downloads
