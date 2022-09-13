@@ -16,7 +16,7 @@ void convert(long long num, int s, int t){
     long long dec = 0, pw = 1;
     while(num){
         if(num % 10 >= s){
-            printf("cannot convert");
+            printf("cannot convert!");
             return;
         }
         dec += (num % 10) * pw;
