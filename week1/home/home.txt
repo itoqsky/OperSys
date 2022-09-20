@@ -17,4 +17,4 @@ drwx------@   4 ikramkamat  staff      128 Jul 24 11:29 Documents
 -rw-r--r--@   1 ikramkamat  staff      158 Aug 20 22:35 psw
 drwx------@   4 ikramkamat  staff      128 Aug 26 23:43 Applications
 drwx------@  15 ikramkamat  staff      480 Sep  4 18:24 Desktop
-drwx------@  27 ikramkamat  staff      864 Sep  4 22:06 Downloads
+drwx------@  27 ikramkamat  staff      864 Sep  5 21:26 Downloads

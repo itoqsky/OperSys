@@ -12,6 +12,6 @@ drwxr-xr-x   6 root  admin   192 Jan  1  2020 Users
 drwxr-xr-x@  9 root  wheel   288 Jan  1  2020 System
 drwxr-xr-x  65 root  wheel  2080 Aug 28 23:33 Library
 drwxrwxr-x  21 root  admin   672 Sep  1 22:44 Applications
-dr-xr-xr-x   3 root  wheel  4499 Sep  4 17:36 dev
-lrwxr-xr-x   1 root  wheel    25 Sep  4 17:37 home -> /System/Volumes/Data/home
-drwxr-xr-x   3 root  wheel    96 Sep  4 17:37 Volumes
+dr-xr-xr-x   3 root  wheel  4499 Sep  5 21:22 dev
+lrwxr-xr-x   1 root  wheel    25 Sep  5 21:22 home -> /System/Volumes/Data/home
+drwxr-xr-x   3 root  wheel    96 Sep  5 21:22 Volumes

@@ -13,26 +13,24 @@ int foo(int age){
 
 int main (){
     const int x = 10;
-    int *pt = &x, a[5];
+    int *pt = (int*)&x, a[5];
     time(&timer);
     timeinfo = localtime(&timer);
     const int *const ptr = malloc(5 * sizeof(int));
-    pt = ptr;
+    pt = (int *)ptr;
     for (int i = 0; i < 5; i ++){
         pt[i] = x;
         printf("%p\n", &pt[i]);
     }
-    // scanf("%d%d%d%d", s1, s2, s3, s4);
     for (int i = 0; i < 5; i ++){
         scanf("%d", &a[i]);
         pt[i] = a[i];
     }
     for (int i = 0; i < 5; i ++){
         pt[i] = a[i];
-        printf("%d\n", foo(a[i]));
+        printf("%d\n", foo(pt[i]));
     }
+    free((int *)ptr);
     
-    free(ptr);
     return EXIT_SUCCESS;
-
 }   
