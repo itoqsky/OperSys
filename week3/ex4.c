@@ -62,7 +62,6 @@ void* aggregate(void* base, size_t size, int n, void* initial_value, void* (*opr
                 opr((int*)output, (int*)base + i);
             }
         }
-
 	}else{ // base is a pointer to a double
         output = (double*)initial_value;
         if(opr == meanDouble){
@@ -130,7 +129,7 @@ int main(){
 	
         
     // free the pointers
-
+        
         free(init_val);
         return EXIT_SUCCESS;
 }

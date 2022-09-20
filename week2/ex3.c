@@ -14,13 +14,11 @@ long long binpow(int a, int n){
 
 void convert(long long num, int s, int t){
     long long dec = 0, pw = 1;
-<<<<<<< Updated upstream
     if(s < 2 || s > 10 || t < 2 || t > 10){
-=======
         if(s < 2 || s > 10 || t < 2 || t > 10){
->>>>>>> Stashed changes
-        printf("cannot convert!");
+            printf("cannot convert!");
            return;
+        }
     }
     while(num){
         if(num % 10 >= s){
