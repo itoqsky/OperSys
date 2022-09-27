@@ -1,0 +1,5 @@
+The ex3.sh shell script is running in parallel to ex3.c, which is executing on the background shell.
+2^n - 1 processes are created. In our case is (2^3-1) 7 with the main process being 8. 
+Why are there 2 power of n because we forked every process n times. ((1*2)*2)*2 = 8
+Why do we have in our result the process that contains "pstree" because it is in our current process "ex3.sh".
+"pstree $$" returns a tree of a current process "ex3.sh". And we have child process of process "pstree".
