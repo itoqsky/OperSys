@@ -3,3 +3,17 @@ The ex3.sh shell script is running in parallel to ex3.c, which is executing on t
 Why are there 2 power of n because we forked every process n times. ((1*2)*2)*2 = 8
 Why do we have in our result the process that contains "pstree" because it is in our current process "ex3.sh".
 "pstree $$" returns a tree of a current process "ex3.sh". And we have child process of process "pstree".
+
+// The results of the first run for 3 fork calls
+
+We get 7 created processes 
+
+// The results of the second run for 5 fork calls
+
+We get 31 created processes
+
+// The difference
+
+The difference is in the number of created processes after n fork calls.
+In the first 4 + 7(2^3-1) = 11 processes 
+In the first 4 + 31(2^5-1) = 35 processes
