@@ -1,1 +1,2 @@
-The main reason why results in ex3.txt are decreasing is threads. 
+Times in ex3.txt are decreasing due to threads. However, last 3 result are same approximately same. Because, my cpu core number is 4.
+A core can execute one instruction at time. For that reason, the number of threads, which more than 4, will not be concurrently executed.
