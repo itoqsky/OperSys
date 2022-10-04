@@ -1,0 +1,1 @@
+if we have more threads then we have more locks. Consequently, more delay we will get.
