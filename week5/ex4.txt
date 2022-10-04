@@ -1,0 +1,2 @@
+Command terminated abnormally.
+       19.01 real        18.31 user        13.82 sys
