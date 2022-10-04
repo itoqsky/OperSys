@@ -32,7 +32,6 @@ void increment_primes()
   primes_found_so_far++;
 }
 
-int var;
 
 void *check_primes(void *arg)
 {
@@ -42,21 +41,21 @@ void *check_primes(void *arg)
 
     Pay close attention to your use of the global mutex.
   */
-    while(1){
+  while (1){
+    int var;
+    pthread_mutex_lock(&global_lock);
+    var = get_number_to_check();
+    pthread_mutex_unlock(&global_lock);
+
+    if(is_prime(var)){
         pthread_mutex_lock(&global_lock);
 
-        var = get_number_to_check();
+        increment_primes();
 
         pthread_mutex_unlock(&global_lock);
-
-        if(is_prime(var)){
-            pthread_mutex_lock(&global_lock);
-            increment_primes();
-            pthread_mutex_unlock(&global_lock);
-        } 
-
-        if(var > n) break;
     }
+    if(var >= n) return NULL;
+  }
   
   return NULL;
 }
@@ -65,6 +64,7 @@ int main(int argc, char *argv[])
 {
   n = atoi(argv[1]);
   int n_threads = atoi(argv[2]);
+//  n_threads += 1;
   printf("%d %d\n", n, n_threads);
   pthread_mutex_init(&global_lock, NULL);
   pthread_t *threads = malloc(n_threads * sizeof(pthread_t));

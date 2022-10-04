@@ -1,10 +1,5 @@
-Command terminated abnormally.
-       38.02 real        37.33 user         0.08 sys
-Command terminated abnormally.
-        1.25 real         2.26 user         0.16 sys
-Command terminated abnormally.
-        0.17 real         0.33 user         0.15 sys
-Command terminated abnormally.
-        0.16 real         0.32 user         0.23 sys
-Command terminated abnormally.
-        0.68 real         2.10 user         0.59 sys
+        5.28 real         5.23 user         0.00 sys
+        3.35 real         5.28 user         0.01 sys
+        1.98 real         5.29 user         0.00 sys
+        1.57 real         5.29 user         0.00 sys
+        1.72 real         5.38 user         0.03 sys
