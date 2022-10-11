@@ -1,0 +1,2 @@
+3rd solution reduces efficiently from waiting time by using quantum.
+But giving small value to quantum increases the number loop.

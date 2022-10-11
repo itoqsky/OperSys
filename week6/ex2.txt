@@ -1,0 +1,2 @@
+Answers differ because, second solution considers reduces waiting time by searching for appropriate processes,
+which their arrival time less than previous completion time.
