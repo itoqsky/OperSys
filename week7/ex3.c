@@ -21,7 +21,7 @@ int main(){
 		
 		//Print each element out (to make sure things look right)
 		printf("%d ", a1[i]);
-	}
+	} 
 
 	//User specifies the new array size, stored in variable n2.
 	printf("\nEnter new array size: ");

@@ -9,6 +9,6 @@ int main(){
         arr[i] = i;
         printf("%d ", arr[i]);
     }
-    free(arr);
+    free(arr); 
 	return EXIT_SUCCESS;
 }

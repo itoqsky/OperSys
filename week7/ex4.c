@@ -27,5 +27,5 @@ int main(){
         ptr[i] = m;
         printf("%d ", ptr[i]);
     }
-	return EXIT_SUCCESS;
+	return EXIT_SUCCESS ;
 }
