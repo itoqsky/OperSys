@@ -26,7 +26,7 @@ int main(){
 	//User specifies the new array size, stored in variable n2.
 	printf("\nEnter new array size: ");
 	int n2=0;
-	scanf("%d",&n2);
+	scanf("%d",&n2); 
 
 	//Dynamically change the array to size n2
 	a1 = realloc(a1, sizeof(int) * n2);

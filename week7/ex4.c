@@ -28,4 +28,4 @@ int main(){
         printf("%d ", ptr[i]);
     }
 	return EXIT_SUCCESS ;
-}
+} 

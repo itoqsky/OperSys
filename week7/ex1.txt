@@ -1,4 +1,4 @@
 size ~/Desktop/progm/OperSys/week2/a.out
 
 __TEXT  __DATA  __OBJC  others  dec     hex 
-16384   16384   0       4295000064      4295032832      100010000
+16384   16384   0       4295000064      4295032832      100010000 
