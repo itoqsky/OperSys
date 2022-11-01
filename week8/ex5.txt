@@ -1,0 +1,2 @@
+A physical address refers to hardware addresses of physical memory. A virtual address refers to the virtual storage viewed by the process. Their spaces are independent
+A virtual addres can be the same as physical addresses. Virtual space is size of virtual addresses.
