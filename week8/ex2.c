@@ -14,6 +14,6 @@ int main() {
     free(ptr) ;
     return 0;
 }
-// Swapins and Swapouts are always zero
+// Swapins(si) and Swapouts(so) are always zero
 // free memory was decresing for 10 seconds then after started increasing.
 //

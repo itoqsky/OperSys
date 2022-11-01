@@ -1,0 +1,5 @@
+16-bit virtual address -> 2^16
+Page -> 8KB = 8192
+entries = 2^16/8192 = 8
+
+8 entries are needed for a single-level linear page table
