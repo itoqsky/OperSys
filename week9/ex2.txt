@@ -1,0 +1,5 @@
+Spacing out requests for the same page makes it more probable that when one is needed again,
+it has already been loaded, which results in the worst hit rate.
+
+By doing the opposite, or grouping similar page calls together,
+you can increase the likelihood that the pages will be loaded when they are needed again and get the highest hit rate. 
