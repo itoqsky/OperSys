@@ -1,0 +1,3 @@
+Chmod 660 - chmod a+rwx,u-x,g-x,o-rwx
+Chmod 775 - chmod a+rwx,o-w
+Chmod 777 - chmod a+rwx
