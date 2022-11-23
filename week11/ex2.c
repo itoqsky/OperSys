@@ -17,9 +17,6 @@ int main (){
     printf("Output:-----------------------\n");
 
     while((dep = readdir(dirp)) != NULL){
-        if(dep->d_name == "." || dep->d_name == ".."){
-            continue;
-        }
         printf("%s\n", dep->d_name);
     }
     closedir(dirp);
